@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Endereço - Joalheria Joias Joia</title>
+    <link rel="stylesheet" href="estiloscadastroendereco.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Cadastro de Endereço</h1>
+            <p>Preencha os dados abaixo para finalizar sua compra.</p>
+        </header>
+>
+        <form id="cadastroEnderecoForm">
+            <div class="form-group">
+				<form id="cadastroEnderecoForm">
+                <label for="nome">Numero</label>
+                <input type="text" id="Numero" name="numero" placeholder="numero" required>
+            </div>
+			
+			<div class="form-group">
+			                <label for="nome">Rua</label>
+			                <input type="text" id="Rua" name="rua" placeholder="Digite seu rua" required>
+			            </div>
+
+            <div class="form-group">
+                <label for="endereco">Endereço</label>
+                <input type="text" id="Endereco" name="endereco" placeholder="Digite seu endereço" required>
+            </div>
+
+            <div class="form-group">
+                <label for="cidade">Cidade</label>
+                <input type="text" id="Cidade" name="cidade" placeholder="Digite sua cidade" required>
+            </div>
+
+            <div class="form-group">
+                <label for="cep">CEP</label>
+                <input type="text" id="Cep" name="cep" placeholder="Digite seu CEP" required>
+            </div>
+
+            <div class="form-group">
+                <label for="bairro">Bairro</label>
+                <input type="text" id="Bairro" name="bairro" placeholder="Digite seu bairro" required>
+            </div>
+
+            <div class="form-group">
+                <label for="estado">Estado</label>
+                <select id="Estado" name="estado" required>
+                    <option value="" disabled selected>Selecione seu estado</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="BA">Bahia</option>
+                    <!-- Adicione mais estados conforme necessário -->
+                </select>
+            </div>
+			<div class="form-group">
+			                <label for="email">Complemento</label>
+			                <input type="email" id="Complemento" name="complemento" placeholder="Digite o complemento" required>
+			            </div>
+
+            <div class="form-group">
+                <button type="submit">Finalizar Cadastro</button>
+            </div>
+        </form>
+    </div>
+	<script src="scriptendereco.js"></script>
+</body>
+</html>
